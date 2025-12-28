@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>ИИ-наставник — MVP</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+ 
+<main class="container">
+ 
+  <h1>Мини-курс: Основы асинхронного JavaScript</h1>
+ 
+  <section class="module">
+    <h2>Учебный материал</h2>
+    <p>
+      Асинхронный JavaScript позволяет выполнять долгие операции
+      (например, запросы к серверу) без блокировки основного потока.
+      Основные инструменты асинхронности — это <strong>Promises</strong>,
+      <strong>async/await</strong> и функции обратного вызова.
+    </p>
+    <p>
+      Promise — это объект, представляющий результат асинхронной операции,
+      которая может завершиться успешно или с ошибкой.
+      Синтаксис async/await делает код более читаемым и похожим на синхронный.
+    </p>
+  </section>
+ 
+  <section class="quiz">
+    <h2>Проверь себя</h2>
+ 
+    <label>
+      1. Что такое Promise своими словами?
+      <textarea id="q1" rows="3"></textarea>
+    </label>
+ 
+    <label>
+      2. В чём преимущество async/await?
+      <textarea id="q2" rows="3"></textarea>
+    </label>
+ 
+    <label>
+      3. Где может пригодиться асинхронный код?
+      <textarea id="q3" rows="3"></textarea>
+    </label>
+ 
+    <button id="submitBtn">Получить обратную связь</button>
+  </section>
+ 
+  <section class="feedback">
+    <h2>Обратная связь от ИИ-наставника</h2>
+    <div id="aiResponse" class="response">
+      <em>Заполни ответы и нажми кнопку</em>
+    </div>
+  </section>
+ 
+</main>
+ 
+<script src="script.js"></script>
+</body>
+</html>
